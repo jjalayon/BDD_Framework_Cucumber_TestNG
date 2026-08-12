@@ -1,4 +1,4 @@
-# BDDFramework_Cucumber_TestNG 🚀
+# BDD_Framework_Cucumber_TestNG 🚀
 
 This project implements a Behavior-Driven Development (BDD) testing framework using Cucumber with TestNG as the test runner and Selenium WebDriver for browser automation. It is designed to facilitate the creation and execution of automated tests with a focus on collaboration between technical and non-technical stakeholders.
 
