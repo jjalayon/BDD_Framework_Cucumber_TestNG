@@ -1,0 +1,162 @@
+11:26:10.687 [TestNG-tests-1] INFO  utils.LoggerUtilities - Starting scenario: Successful login with valid credentials
+11:26:16.397 [TestNG-tests-1] INFO  utils.LoggerUtilities - Typed 'standard_user' into element: [[ChromeDriver: chrome on windows (1c38cb2f21ce680f57a1fbd50e48791c)] -> id: user-name]
+11:26:16.495 [TestNG-tests-1] INFO  utils.LoggerUtilities - Typed 'secret_sauce' into element: [[ChromeDriver: chrome on windows (1c38cb2f21ce680f57a1fbd50e48791c)] -> id: password]
+11:26:26.656 [TestNG-tests-1] INFO  utils.LoggerUtilities - Clicked on element: Proxy element for: DefaultElementLocator 'By.id: login-button'
+11:26:26.692 [TestNG-tests-1] INFO  utils.LoggerUtilities - Retrieved text 'Products' from element: [[ChromeDriver: chrome on windows (1c38cb2f21ce680f57a1fbd50e48791c)] -> xpath: //span[@data-test='title']]
+11:26:26.695 [TestNG-tests-1] INFO  utils.LoggerUtilities - Completed scenario: Successful login with valid credentials
+11:26:26.974 [TestNG-tests-1] INFO  utils.LoggerUtilities - Starting scenario: Failed login with invalid username
+11:26:28.363 [TestNG-tests-1] INFO  utils.LoggerUtilities - Typed 'standard' into element: [[ChromeDriver: chrome on windows (b527275b65fc8b9e4ac575957d6981f6)] -> id: user-name]
+11:26:28.468 [TestNG-tests-1] INFO  utils.LoggerUtilities - Typed 'secret_sauce' into element: [[ChromeDriver: chrome on windows (b527275b65fc8b9e4ac575957d6981f6)] -> id: password]
+11:26:28.552 [TestNG-tests-1] INFO  utils.LoggerUtilities - Clicked on element: [[ChromeDriver: chrome on windows (b527275b65fc8b9e4ac575957d6981f6)] -> id: login-button]
+11:26:28.576 [TestNG-tests-1] INFO  utils.LoggerUtilities - Element displayed status: true
+11:26:28.607 [TestNG-tests-1] INFO  utils.LoggerUtilities - Retrieved text 'Epic sadface: Username and password do not match any user in this service' from element: [[ChromeDriver: chrome on windows (b527275b65fc8b9e4ac575957d6981f6)] -> xpath: //h3]
+11:26:28.607 [TestNG-tests-1] INFO  utils.LoggerUtilities - Completed scenario: Failed login with invalid username
+11:26:28.791 [TestNG-tests-1] INFO  utils.LoggerUtilities - Starting scenario: Failed login with invalid password
+11:26:51.082 [TestNG-tests-1] INFO  utils.LoggerUtilities - Typed 'standard_user' into element: [[ChromeDriver: chrome on windows (9fa3a27245b248b970aa38699c5e3e69)] -> id: user-name]
+11:26:51.167 [TestNG-tests-1] INFO  utils.LoggerUtilities - Typed 'secret' into element: [[ChromeDriver: chrome on windows (9fa3a27245b248b970aa38699c5e3e69)] -> id: password]
+11:26:51.237 [TestNG-tests-1] INFO  utils.LoggerUtilities - Clicked on element: [[ChromeDriver: chrome on windows (9fa3a27245b248b970aa38699c5e3e69)] -> id: login-button]
+11:26:51.261 [TestNG-tests-1] INFO  utils.LoggerUtilities - Element displayed status: true
+11:26:51.290 [TestNG-tests-1] INFO  utils.LoggerUtilities - Retrieved text 'Epic sadface: Username and password do not match any user in this service' from element: [[ChromeDriver: chrome on windows (9fa3a27245b248b970aa38699c5e3e69)] -> xpath: //h3]
+11:26:51.290 [TestNG-tests-1] INFO  utils.LoggerUtilities - Completed scenario: Failed login with invalid password
+11:26:51.495 [TestNG-tests-1] INFO  utils.LoggerUtilities - Starting scenario: Failed login with invalid credentials
+11:26:52.651 [TestNG-tests-1] INFO  utils.LoggerUtilities - Typed 'standard' into element: [[ChromeDriver: chrome on windows (d95ce827ea6dc948cc0bf06f6958daa6)] -> id: user-name]
+11:26:52.765 [TestNG-tests-1] INFO  utils.LoggerUtilities - Typed 'secret' into element: [[ChromeDriver: chrome on windows (d95ce827ea6dc948cc0bf06f6958daa6)] -> id: password]
+11:26:52.848 [TestNG-tests-1] INFO  utils.LoggerUtilities - Clicked on element: [[ChromeDriver: chrome on windows (d95ce827ea6dc948cc0bf06f6958daa6)] -> id: login-button]
+11:26:52.874 [TestNG-tests-1] INFO  utils.LoggerUtilities - Element displayed status: true
+11:26:52.904 [TestNG-tests-1] INFO  utils.LoggerUtilities - Retrieved text 'Epic sadface: Username and password do not match any user in this service' from element: [[ChromeDriver: chrome on windows (d95ce827ea6dc948cc0bf06f6958daa6)] -> xpath: //h3]
+11:26:52.905 [TestNG-tests-1] INFO  utils.LoggerUtilities - Completed scenario: Failed login with invalid credentials
+11:29:50.080 [TestNG-tests-1] INFO  utils.LoggerUtilities - Starting scenario: Successful login with valid credentials
+11:29:52.027 [TestNG-tests-1] INFO  utils.LoggerUtilities - Typed 'standard_user' into element: [[ChromeDriver: chrome on windows (80bbaaf36e86e933279d768f7f4b588d)] -> id: user-name]
+11:29:52.116 [TestNG-tests-1] INFO  utils.LoggerUtilities - Typed 'secret_sauce' into element: [[ChromeDriver: chrome on windows (80bbaaf36e86e933279d768f7f4b588d)] -> id: password]
+11:30:02.273 [TestNG-tests-1] INFO  utils.LoggerUtilities - Clicked on element: Proxy element for: DefaultElementLocator 'By.id: login-button'
+11:30:02.307 [TestNG-tests-1] INFO  utils.LoggerUtilities - Retrieved text 'Products' from element: [[ChromeDriver: chrome on windows (80bbaaf36e86e933279d768f7f4b588d)] -> xpath: //span[@data-test='title']]
+11:30:02.310 [TestNG-tests-1] INFO  utils.LoggerUtilities - Completed scenario: Successful login with valid credentials
+11:30:02.560 [TestNG-tests-1] INFO  utils.LoggerUtilities - Starting scenario: Failed login with invalid username
+11:30:24.901 [TestNG-tests-1] INFO  utils.LoggerUtilities - Typed 'standard' into element: [[ChromeDriver: chrome on windows (dc8de93473d35d5a58cbbb4dd50c63f8)] -> id: user-name]
+11:30:24.986 [TestNG-tests-1] INFO  utils.LoggerUtilities - Typed 'secret_sauce' into element: [[ChromeDriver: chrome on windows (dc8de93473d35d5a58cbbb4dd50c63f8)] -> id: password]
+11:30:25.062 [TestNG-tests-1] INFO  utils.LoggerUtilities - Clicked on element: [[ChromeDriver: chrome on windows (dc8de93473d35d5a58cbbb4dd50c63f8)] -> id: login-button]
+11:30:25.089 [TestNG-tests-1] INFO  utils.LoggerUtilities - Element displayed status: true
+11:30:25.119 [TestNG-tests-1] INFO  utils.LoggerUtilities - Retrieved text 'Epic sadface: Username and password do not match any user in this service' from element: [[ChromeDriver: chrome on windows (dc8de93473d35d5a58cbbb4dd50c63f8)] -> xpath: //h3]
+11:30:25.120 [TestNG-tests-1] INFO  utils.LoggerUtilities - Completed scenario: Failed login with invalid username
+11:30:25.302 [TestNG-tests-1] INFO  utils.LoggerUtilities - Starting scenario: Failed login with invalid password
+11:30:26.703 [TestNG-tests-1] INFO  utils.LoggerUtilities - Typed 'standard_user' into element: [[ChromeDriver: chrome on windows (8f5c81581382cba77bd5ce5230bc2da7)] -> id: user-name]
+11:30:26.800 [TestNG-tests-1] INFO  utils.LoggerUtilities - Typed 'secret' into element: [[ChromeDriver: chrome on windows (8f5c81581382cba77bd5ce5230bc2da7)] -> id: password]
+11:30:26.886 [TestNG-tests-1] INFO  utils.LoggerUtilities - Clicked on element: [[ChromeDriver: chrome on windows (8f5c81581382cba77bd5ce5230bc2da7)] -> id: login-button]
+11:30:26.908 [TestNG-tests-1] INFO  utils.LoggerUtilities - Element displayed status: true
+11:30:26.935 [TestNG-tests-1] INFO  utils.LoggerUtilities - Retrieved text 'Epic sadface: Username and password do not match any user in this service' from element: [[ChromeDriver: chrome on windows (8f5c81581382cba77bd5ce5230bc2da7)] -> xpath: //h3]
+11:30:26.935 [TestNG-tests-1] INFO  utils.LoggerUtilities - Completed scenario: Failed login with invalid password
+11:30:27.075 [TestNG-tests-1] INFO  utils.LoggerUtilities - Starting scenario: Failed login with invalid credentials
+11:30:28.418 [TestNG-tests-1] INFO  utils.LoggerUtilities - Typed 'standard' into element: [[ChromeDriver: chrome on windows (76c0a9ce8cc6c52199c8ac47b96d2591)] -> id: user-name]
+11:30:28.509 [TestNG-tests-1] INFO  utils.LoggerUtilities - Typed 'secret' into element: [[ChromeDriver: chrome on windows (76c0a9ce8cc6c52199c8ac47b96d2591)] -> id: password]
+11:30:28.602 [TestNG-tests-1] INFO  utils.LoggerUtilities - Clicked on element: [[ChromeDriver: chrome on windows (76c0a9ce8cc6c52199c8ac47b96d2591)] -> id: login-button]
+11:30:28.628 [TestNG-tests-1] INFO  utils.LoggerUtilities - Element displayed status: true
+11:30:28.662 [TestNG-tests-1] INFO  utils.LoggerUtilities - Retrieved text 'Epic sadface: Username and password do not match any user in this service' from element: [[ChromeDriver: chrome on windows (76c0a9ce8cc6c52199c8ac47b96d2591)] -> xpath: //h3]
+11:30:28.663 [TestNG-tests-1] INFO  utils.LoggerUtilities - Completed scenario: Failed login with invalid credentials
+11:30:31.860 [main] INFO  utils.LoggerUtilities - Starting scenario: Successful login with valid credentials
+11:30:33.751 [main] INFO  utils.LoggerUtilities - Typed 'standard_user' into element: [[ChromeDriver: chrome on windows (2bc22d660b68cb10ea777b5c03a6312b)] -> id: user-name]
+11:30:33.855 [main] INFO  utils.LoggerUtilities - Typed 'secret_sauce' into element: [[ChromeDriver: chrome on windows (2bc22d660b68cb10ea777b5c03a6312b)] -> id: password]
+11:30:44.018 [main] INFO  utils.LoggerUtilities - Clicked on element: Proxy element for: DefaultElementLocator 'By.id: login-button'
+11:30:44.051 [main] INFO  utils.LoggerUtilities - Retrieved text 'Products' from element: [[ChromeDriver: chrome on windows (2bc22d660b68cb10ea777b5c03a6312b)] -> xpath: //span[@data-test='title']]
+11:30:44.054 [main] INFO  utils.LoggerUtilities - Completed scenario: Successful login with valid credentials
+11:30:44.299 [main] INFO  utils.LoggerUtilities - Starting scenario: Failed login with invalid username
+11:31:06.690 [main] INFO  utils.LoggerUtilities - Typed 'standard' into element: [[ChromeDriver: chrome on windows (a07fd1fd094a064f1d6911ade59892ad)] -> id: user-name]
+11:31:06.791 [main] INFO  utils.LoggerUtilities - Typed 'secret_sauce' into element: [[ChromeDriver: chrome on windows (a07fd1fd094a064f1d6911ade59892ad)] -> id: password]
+11:31:06.860 [main] INFO  utils.LoggerUtilities - Clicked on element: [[ChromeDriver: chrome on windows (a07fd1fd094a064f1d6911ade59892ad)] -> id: login-button]
+11:31:06.883 [main] INFO  utils.LoggerUtilities - Element displayed status: true
+11:31:06.913 [main] INFO  utils.LoggerUtilities - Retrieved text 'Epic sadface: Username and password do not match any user in this service' from element: [[ChromeDriver: chrome on windows (a07fd1fd094a064f1d6911ade59892ad)] -> xpath: //h3]
+11:31:06.913 [main] INFO  utils.LoggerUtilities - Completed scenario: Failed login with invalid username
+11:31:07.100 [main] INFO  utils.LoggerUtilities - Starting scenario: Failed login with invalid password
+11:31:08.334 [main] INFO  utils.LoggerUtilities - Typed 'standard_user' into element: [[ChromeDriver: chrome on windows (a215d1ad3c849f1c6e1c76f1eee4626d)] -> id: user-name]
+11:31:08.426 [main] INFO  utils.LoggerUtilities - Typed 'secret' into element: [[ChromeDriver: chrome on windows (a215d1ad3c849f1c6e1c76f1eee4626d)] -> id: password]
+11:31:08.505 [main] INFO  utils.LoggerUtilities - Clicked on element: [[ChromeDriver: chrome on windows (a215d1ad3c849f1c6e1c76f1eee4626d)] -> id: login-button]
+11:31:08.529 [main] INFO  utils.LoggerUtilities - Element displayed status: true
+11:31:08.558 [main] INFO  utils.LoggerUtilities - Retrieved text 'Epic sadface: Username and password do not match any user in this service' from element: [[ChromeDriver: chrome on windows (a215d1ad3c849f1c6e1c76f1eee4626d)] -> xpath: //h3]
+11:31:08.559 [main] INFO  utils.LoggerUtilities - Completed scenario: Failed login with invalid password
+11:31:08.732 [main] INFO  utils.LoggerUtilities - Starting scenario: Failed login with invalid credentials
+11:31:10.103 [main] INFO  utils.LoggerUtilities - Typed 'standard' into element: [[ChromeDriver: chrome on windows (23e66bacb6d2c8f67c2f7bdb028ed8c0)] -> id: user-name]
+11:31:10.211 [main] INFO  utils.LoggerUtilities - Typed 'secret' into element: [[ChromeDriver: chrome on windows (23e66bacb6d2c8f67c2f7bdb028ed8c0)] -> id: password]
+11:31:10.293 [main] INFO  utils.LoggerUtilities - Clicked on element: [[ChromeDriver: chrome on windows (23e66bacb6d2c8f67c2f7bdb028ed8c0)] -> id: login-button]
+11:31:10.317 [main] INFO  utils.LoggerUtilities - Element displayed status: true
+11:31:10.346 [main] INFO  utils.LoggerUtilities - Retrieved text 'Epic sadface: Username and password do not match any user in this service' from element: [[ChromeDriver: chrome on windows (23e66bacb6d2c8f67c2f7bdb028ed8c0)] -> xpath: //h3]
+11:31:10.346 [main] INFO  utils.LoggerUtilities - Completed scenario: Failed login with invalid credentials
+12:42:26.220 [TestNG-tests-1] INFO  utils.LoggerUtilities - Starting scenario: Successful login with valid credentials
+12:42:50.707 [TestNG-tests-1] INFO  utils.LoggerUtilities - Typed 'standard_user' into element: [[ChromeDriver: chrome on windows (60d8b108f66bf31407abef4c838f5f5f)] -> id: user-name]
+12:42:50.800 [TestNG-tests-1] INFO  utils.LoggerUtilities - Typed 'secret_sauce' into element: [[ChromeDriver: chrome on windows (60d8b108f66bf31407abef4c838f5f5f)] -> id: password]
+12:43:00.947 [TestNG-tests-1] INFO  utils.LoggerUtilities - Clicked on element: Proxy element for: DefaultElementLocator 'By.id: login-button'
+12:43:00.982 [TestNG-tests-1] INFO  utils.LoggerUtilities - Retrieved text 'Products' from element: [[ChromeDriver: chrome on windows (60d8b108f66bf31407abef4c838f5f5f)] -> xpath: //span[@data-test='title']]
+12:43:00.984 [TestNG-tests-1] INFO  utils.LoggerUtilities - Completed scenario: Successful login with valid credentials
+12:43:01.278 [TestNG-tests-1] INFO  utils.LoggerUtilities - Starting scenario: Failed login with invalid username
+12:43:03.111 [TestNG-tests-1] INFO  utils.LoggerUtilities - Typed 'standard' into element: [[ChromeDriver: chrome on windows (86cdb71ae6e9574a91c053140ed84690)] -> id: user-name]
+12:43:03.209 [TestNG-tests-1] INFO  utils.LoggerUtilities - Typed 'secret_sauce' into element: [[ChromeDriver: chrome on windows (86cdb71ae6e9574a91c053140ed84690)] -> id: password]
+12:43:03.297 [TestNG-tests-1] INFO  utils.LoggerUtilities - Clicked on element: [[ChromeDriver: chrome on windows (86cdb71ae6e9574a91c053140ed84690)] -> id: login-button]
+12:43:03.322 [TestNG-tests-1] INFO  utils.LoggerUtilities - Element displayed status: true
+12:43:03.351 [TestNG-tests-1] INFO  utils.LoggerUtilities - Retrieved text 'Epic sadface: Username and password do not match any user in this service' from element: [[ChromeDriver: chrome on windows (86cdb71ae6e9574a91c053140ed84690)] -> xpath: //h3]
+12:43:03.351 [TestNG-tests-1] INFO  utils.LoggerUtilities - Completed scenario: Failed login with invalid username
+12:43:03.516 [TestNG-tests-1] INFO  utils.LoggerUtilities - Starting scenario: Failed login with invalid password
+12:43:05.078 [TestNG-tests-1] INFO  utils.LoggerUtilities - Typed 'standard_user' into element: [[ChromeDriver: chrome on windows (99ba80df837884a0970c00b517906340)] -> id: user-name]
+12:43:05.177 [TestNG-tests-1] INFO  utils.LoggerUtilities - Typed 'secret' into element: [[ChromeDriver: chrome on windows (99ba80df837884a0970c00b517906340)] -> id: password]
+12:43:05.259 [TestNG-tests-1] INFO  utils.LoggerUtilities - Clicked on element: [[ChromeDriver: chrome on windows (99ba80df837884a0970c00b517906340)] -> id: login-button]
+12:43:05.282 [TestNG-tests-1] INFO  utils.LoggerUtilities - Element displayed status: true
+12:43:05.311 [TestNG-tests-1] INFO  utils.LoggerUtilities - Retrieved text 'Epic sadface: Username and password do not match any user in this service' from element: [[ChromeDriver: chrome on windows (99ba80df837884a0970c00b517906340)] -> xpath: //h3]
+12:43:05.312 [TestNG-tests-1] INFO  utils.LoggerUtilities - Completed scenario: Failed login with invalid password
+12:43:05.477 [TestNG-tests-1] INFO  utils.LoggerUtilities - Starting scenario: Failed login with invalid credentials
+12:43:07.058 [TestNG-tests-1] INFO  utils.LoggerUtilities - Typed 'standard' into element: [[ChromeDriver: chrome on windows (f7fe03fc2c76cd0c60fab9271445a3a2)] -> id: user-name]
+12:43:07.179 [TestNG-tests-1] INFO  utils.LoggerUtilities - Typed 'secret' into element: [[ChromeDriver: chrome on windows (f7fe03fc2c76cd0c60fab9271445a3a2)] -> id: password]
+12:43:07.271 [TestNG-tests-1] INFO  utils.LoggerUtilities - Clicked on element: [[ChromeDriver: chrome on windows (f7fe03fc2c76cd0c60fab9271445a3a2)] -> id: login-button]
+12:43:07.297 [TestNG-tests-1] INFO  utils.LoggerUtilities - Element displayed status: true
+12:43:07.330 [TestNG-tests-1] INFO  utils.LoggerUtilities - Retrieved text 'Epic sadface: Username and password do not match any user in this service' from element: [[ChromeDriver: chrome on windows (f7fe03fc2c76cd0c60fab9271445a3a2)] -> xpath: //h3]
+12:43:07.330 [TestNG-tests-1] INFO  utils.LoggerUtilities - Completed scenario: Failed login with invalid credentials
+12:44:52.331 [TestNG-tests-1] INFO  utils.LoggerUtilities - Starting scenario: Successful login with valid credentials
+12:44:54.461 [TestNG-tests-1] INFO  utils.LoggerUtilities - Typed 'standard_user' into element: [[ChromeDriver: chrome on windows (6870bf4505762e66b690a813d0e8d77e)] -> id: user-name]
+12:44:54.562 [TestNG-tests-1] INFO  utils.LoggerUtilities - Typed 'secret_sauce' into element: [[ChromeDriver: chrome on windows (6870bf4505762e66b690a813d0e8d77e)] -> id: password]
+12:45:04.736 [TestNG-tests-1] INFO  utils.LoggerUtilities - Clicked on element: Proxy element for: DefaultElementLocator 'By.id: login-button'
+12:45:04.769 [TestNG-tests-1] INFO  utils.LoggerUtilities - Retrieved text 'Products' from element: [[ChromeDriver: chrome on windows (6870bf4505762e66b690a813d0e8d77e)] -> xpath: //span[@data-test='title']]
+12:45:04.771 [TestNG-tests-1] INFO  utils.LoggerUtilities - Completed scenario: Successful login with valid credentials
+12:45:05.035 [TestNG-tests-1] INFO  utils.LoggerUtilities - Starting scenario: Failed login with invalid username
+12:45:06.663 [TestNG-tests-1] INFO  utils.LoggerUtilities - Typed 'standard' into element: [[ChromeDriver: chrome on windows (ab102f7fb9fb783a081baba5a74c93fc)] -> id: user-name]
+12:45:06.778 [TestNG-tests-1] INFO  utils.LoggerUtilities - Typed 'secret_sauce' into element: [[ChromeDriver: chrome on windows (ab102f7fb9fb783a081baba5a74c93fc)] -> id: password]
+12:45:06.865 [TestNG-tests-1] INFO  utils.LoggerUtilities - Clicked on element: [[ChromeDriver: chrome on windows (ab102f7fb9fb783a081baba5a74c93fc)] -> id: login-button]
+12:45:06.888 [TestNG-tests-1] INFO  utils.LoggerUtilities - Element displayed status: true
+12:45:06.919 [TestNG-tests-1] INFO  utils.LoggerUtilities - Retrieved text 'Epic sadface: Username and password do not match any user in this service' from element: [[ChromeDriver: chrome on windows (ab102f7fb9fb783a081baba5a74c93fc)] -> xpath: //h3]
+12:45:06.920 [TestNG-tests-1] INFO  utils.LoggerUtilities - Completed scenario: Failed login with invalid username
+12:45:07.069 [TestNG-tests-1] INFO  utils.LoggerUtilities - Starting scenario: Failed login with invalid password
+12:45:08.297 [TestNG-tests-1] INFO  utils.LoggerUtilities - Typed 'standard_user' into element: [[ChromeDriver: chrome on windows (dbd08863a137b6fc189583b788ac7460)] -> id: user-name]
+12:45:08.404 [TestNG-tests-1] INFO  utils.LoggerUtilities - Typed 'secret' into element: [[ChromeDriver: chrome on windows (dbd08863a137b6fc189583b788ac7460)] -> id: password]
+12:45:08.496 [TestNG-tests-1] INFO  utils.LoggerUtilities - Clicked on element: [[ChromeDriver: chrome on windows (dbd08863a137b6fc189583b788ac7460)] -> id: login-button]
+12:45:08.527 [TestNG-tests-1] INFO  utils.LoggerUtilities - Element displayed status: true
+12:45:08.559 [TestNG-tests-1] INFO  utils.LoggerUtilities - Retrieved text 'Epic sadface: Username and password do not match any user in this service' from element: [[ChromeDriver: chrome on windows (dbd08863a137b6fc189583b788ac7460)] -> xpath: //h3]
+12:45:08.559 [TestNG-tests-1] INFO  utils.LoggerUtilities - Completed scenario: Failed login with invalid password
+12:45:08.717 [TestNG-tests-1] INFO  utils.LoggerUtilities - Starting scenario: Failed login with invalid credentials
+12:45:30.931 [TestNG-tests-1] INFO  utils.LoggerUtilities - Typed 'standard' into element: [[ChromeDriver: chrome on windows (55b1f0b2b59945b12562f2a776133f68)] -> id: user-name]
+12:45:31.021 [TestNG-tests-1] INFO  utils.LoggerUtilities - Typed 'secret' into element: [[ChromeDriver: chrome on windows (55b1f0b2b59945b12562f2a776133f68)] -> id: password]
+12:45:31.106 [TestNG-tests-1] INFO  utils.LoggerUtilities - Clicked on element: [[ChromeDriver: chrome on windows (55b1f0b2b59945b12562f2a776133f68)] -> id: login-button]
+12:45:31.130 [TestNG-tests-1] INFO  utils.LoggerUtilities - Element displayed status: true
+12:45:31.158 [TestNG-tests-1] INFO  utils.LoggerUtilities - Retrieved text 'Epic sadface: Username and password do not match any user in this service' from element: [[ChromeDriver: chrome on windows (55b1f0b2b59945b12562f2a776133f68)] -> xpath: //h3]
+12:45:31.159 [TestNG-tests-1] INFO  utils.LoggerUtilities - Completed scenario: Failed login with invalid credentials
+12:45:34.652 [main] INFO  utils.LoggerUtilities - Starting scenario: Successful login with valid credentials
+12:45:36.682 [main] INFO  utils.LoggerUtilities - Typed 'standard_user' into element: [[ChromeDriver: chrome on windows (b61e73a93091f4c47479bca09dadff43)] -> id: user-name]
+12:45:36.790 [main] INFO  utils.LoggerUtilities - Typed 'secret_sauce' into element: [[ChromeDriver: chrome on windows (b61e73a93091f4c47479bca09dadff43)] -> id: password]
+12:45:46.947 [main] INFO  utils.LoggerUtilities - Clicked on element: Proxy element for: DefaultElementLocator 'By.id: login-button'
+12:45:46.980 [main] INFO  utils.LoggerUtilities - Retrieved text 'Products' from element: [[ChromeDriver: chrome on windows (b61e73a93091f4c47479bca09dadff43)] -> xpath: //span[@data-test='title']]
+12:45:46.983 [main] INFO  utils.LoggerUtilities - Completed scenario: Successful login with valid credentials
+12:45:47.247 [main] INFO  utils.LoggerUtilities - Starting scenario: Failed login with invalid username
+12:45:48.597 [main] INFO  utils.LoggerUtilities - Typed 'standard' into element: [[ChromeDriver: chrome on windows (45b452d76aaeb0601d2e4ef333c43c26)] -> id: user-name]
+12:45:48.711 [main] INFO  utils.LoggerUtilities - Typed 'secret_sauce' into element: [[ChromeDriver: chrome on windows (45b452d76aaeb0601d2e4ef333c43c26)] -> id: password]
+12:45:48.802 [main] INFO  utils.LoggerUtilities - Clicked on element: [[ChromeDriver: chrome on windows (45b452d76aaeb0601d2e4ef333c43c26)] -> id: login-button]
+12:45:48.830 [main] INFO  utils.LoggerUtilities - Element displayed status: true
+12:45:48.865 [main] INFO  utils.LoggerUtilities - Retrieved text 'Epic sadface: Username and password do not match any user in this service' from element: [[ChromeDriver: chrome on windows (45b452d76aaeb0601d2e4ef333c43c26)] -> xpath: //h3]
+12:45:48.866 [main] INFO  utils.LoggerUtilities - Completed scenario: Failed login with invalid username
+12:45:49.030 [main] INFO  utils.LoggerUtilities - Starting scenario: Failed login with invalid password
+12:45:50.267 [main] INFO  utils.LoggerUtilities - Typed 'standard_user' into element: [[ChromeDriver: chrome on windows (a4abab2b9b4dc67c2ffa88225a5829c2)] -> id: user-name]
+12:45:50.377 [main] INFO  utils.LoggerUtilities - Typed 'secret' into element: [[ChromeDriver: chrome on windows (a4abab2b9b4dc67c2ffa88225a5829c2)] -> id: password]
+12:45:50.465 [main] INFO  utils.LoggerUtilities - Clicked on element: [[ChromeDriver: chrome on windows (a4abab2b9b4dc67c2ffa88225a5829c2)] -> id: login-button]
+12:45:50.495 [main] INFO  utils.LoggerUtilities - Element displayed status: true
+12:45:50.526 [main] INFO  utils.LoggerUtilities - Retrieved text 'Epic sadface: Username and password do not match any user in this service' from element: [[ChromeDriver: chrome on windows (a4abab2b9b4dc67c2ffa88225a5829c2)] -> xpath: //h3]
+12:45:50.527 [main] INFO  utils.LoggerUtilities - Completed scenario: Failed login with invalid password
+12:45:50.688 [main] INFO  utils.LoggerUtilities - Starting scenario: Failed login with invalid credentials
+12:46:12.942 [main] INFO  utils.LoggerUtilities - Typed 'standard' into element: [[ChromeDriver: chrome on windows (97a0d5722fa040b4aa724ccac66224e4)] -> id: user-name]
+12:46:13.041 [main] INFO  utils.LoggerUtilities - Typed 'secret' into element: [[ChromeDriver: chrome on windows (97a0d5722fa040b4aa724ccac66224e4)] -> id: password]
+12:46:13.120 [main] INFO  utils.LoggerUtilities - Clicked on element: [[ChromeDriver: chrome on windows (97a0d5722fa040b4aa724ccac66224e4)] -> id: login-button]
+12:46:13.145 [main] INFO  utils.LoggerUtilities - Element displayed status: true
+12:46:13.176 [main] INFO  utils.LoggerUtilities - Retrieved text 'Epic sadface: Username and password do not match any user in this service' from element: [[ChromeDriver: chrome on windows (97a0d5722fa040b4aa724ccac66224e4)] -> xpath: //h3]
+12:46:13.176 [main] INFO  utils.LoggerUtilities - Completed scenario: Failed login with invalid credentials
